@@ -35,7 +35,7 @@ app.use(express.static('public'));
 
 app.set('view engine', 'ejs');
 
-const uri = process.env.MONGODB_URI
+const uri = process.env.MONGODB_URI;
 
 // console.log(uri)
 
